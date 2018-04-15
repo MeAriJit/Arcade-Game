@@ -65,10 +65,12 @@
                 count++;
             }
             else{
-                //alert("Game Over");
-                document.getElementById("score").textContent=count
-                document.location.reload();
+                //
+                
+                document.getElementById("score").textContent=count;    
                 console.log("count"+count);
+               // alert("Game Over");
+                document.location.reload();
             } 
         }
         x += dx;
